@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(146, 134, 134);
+}
+
+.main {
+  width: 320px;
+  height: 620px;
+  margin: 100px auto 0;
+  border: 10px solid rgb(0, 0, 0);
+  font-size: 0;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(10, 0, 14);
+  display: inline-block;
+  background: rgb(248, 219, 219);
+}
+
+.moving-cell {
+  background-color: rgb(58, 0, 133);
+}
+
+.fixed-cell {
+  background-color: rgb(92, 2, 54);
+}
